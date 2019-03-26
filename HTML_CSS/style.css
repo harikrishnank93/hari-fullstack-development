@@ -1,0 +1,8 @@
+body{ background:cyan;}
+table{
+    border: 2px solid black;
+    background: yellow;
+}
+.regbut{
+    background: green;
+}
