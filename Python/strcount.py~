@@ -1,0 +1,4 @@
+str="this is string test..wow!!"
+print str.count('o',0,30)
+print "wow occurs in",str.count("wow")
+print "wow occures in",str.count("hi")
