@@ -1,0 +1,17 @@
+f3=open("login3.txt","w")
+f3.write("ictak\n")
+f3.close()
+f3=open("login3.txt","a")
+f3.write("1234")
+f3.close()
+username=raw_input("enter the user name")
+password=raw_input("enter the password")
+f3=open("login3.txt","r")
+unm=f3.readline()
+pwd=f3.readline()
+unm=unm.rstrip("\n")
+pwd=pwd.rstrip("\n")
+if username == unm and password == pwd:
+    print ("succesful login")
+else:
+    print ("unsuccesful login")

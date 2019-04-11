@@ -1,0 +1,6 @@
+f=open("test.dat","w")
+f.write("1,2,3,4,5")
+f.write("s1cse")
+f.close()
+f=open("test.dat","r")
+print (f.read())
